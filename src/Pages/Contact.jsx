@@ -1,8 +1,15 @@
 import React from 'react'
+import SmallBanner from '../components/SmallBanner'
 
-function Contact() {
+const Contact = () => {
+
+  const subtitle = "24/7 available but only girls"
+  const title = "Contact Us"
+
   return (
-    <div>Contact</div>
+    <div>
+      <SmallBanner title={title} subTitle={subtitle} />
+    </div>
   )
 }
 

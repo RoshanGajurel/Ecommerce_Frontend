@@ -9,8 +9,8 @@ import RootLayout from './Layout/RootLayout.jsx'
 import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Header from './components/Header.jsx'
-import Shop from './Pages/Shop.jsx'
 import Contact from './Pages/Contact.jsx'
+import Shop from './Pages/Shop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,14 +24,15 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />
-      },{
-        path:"shop",
-        element:<Shop/>
-      },{
-        path:"Contact Us",
-element:<Contact Us/>
-      }
-    
+      },
+      {
+        path: "contact",
+        element: <Contact />
+      },
+      {
+        path: "shop",
+        element: <Shop />
+      },
     ]
   }
 ])
